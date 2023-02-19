@@ -94,3 +94,11 @@ Após importar os dados, você terá acesso a todas as informações sobre as ve
 ## Contribuição
 
 Se você quiser contribuir com o projeto, sinta-se à vontade para abrir uma issue ou um pull request no GitHub.
+
+## Autor
+
+- [@Paulo Ewerson](https://www.github.com/PauloEwerson)
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
