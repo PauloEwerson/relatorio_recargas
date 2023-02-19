@@ -90,3 +90,7 @@ Para importar o arquivo `demo.csv`, siga os passos abaixo:
 4. Em seguida, preencha o campo de Metas, estipulando um valor para a meta mensal que deseja atingir.
 
 Após importar os dados, você terá acesso a todas as informações sobre as vendas dos operadores e poderá acompanhar o progresso em relação à meta mensal. Além disso, é possível visualizar relatórios detalhados sobre as vendas, bem como o ranking dos colaboradores.
+
+## Contribuição
+
+Se você quiser contribuir com o projeto, sinta-se à vontade para abrir uma issue ou um pull request no GitHub.
