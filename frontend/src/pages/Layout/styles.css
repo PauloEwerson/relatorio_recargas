@@ -1,0 +1,10 @@
+/* BALLON */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background: red; */
+  /* background: var(--bg); */
+  height: 100%;
+  /* width: 100%; */
+}

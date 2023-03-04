@@ -1,0 +1,36 @@
+version: '3.9'
+services:
+  web:
+    container_name: recargas_frontend
+    build:
+      context: .
+      dockerfile: frontend.Dockerfile
+    ports:
+      - '3000:3000'
+    volumes:
+      - './frontend:/usr/src/app/frontend'
+  backend:
+    container_name: recargas_backend
+    build:
+      context: .
+      dockerfile: backend.Dockerfile
+    ports:
+      - '3001:3001'
+    volumes:
+      - './backend:/usr/src/app/backend'
+    environment:
+      - MYSQL_HOST=db
+      - MYSQL_DATABASE=recargas
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+  db:
+    image: mysql:8.0.21
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+      - MYSQL_DATABASE=recargas
+    container_name: db
+    restart: 'always'
+    ports:
+      - '3306:3306'

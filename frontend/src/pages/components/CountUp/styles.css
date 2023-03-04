@@ -1,0 +1,66 @@
+#countdown-wrap {
+  width: 100%;
+  /* height: 250px; */
+  padding: 20px;
+  font-family: arial;
+  margin-bottom: 2rem;
+}
+
+#goal {
+  font-size: 48px;
+  text-align: right;
+  color: rgb(0, 0, 0);
+  @media only screen and (max-width : 640px) {
+    text-align: center;
+  }
+}
+
+#glass {
+  width: 100%;
+  height: 20px;
+  background: #c7c7c7;
+  border-radius: 10px;
+  float: left;
+  overflow: hidden;
+}
+
+#progress {
+  float: left;
+  height: 20px;
+  z-index: 333;
+  color: #fff;
+  font-weight: bold;
+}
+
+.goal-stat {
+  width: 20%;
+  padding: 10px;
+  float: left;
+  margin: 0;
+  color: rgb(0, 0, 0);
+
+  @media only screen and (max-width : 640px) {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+.progress-bar-red {
+  background-color: red;
+}
+
+.progress-bar-blue {
+  background-color: blue;
+}
+
+.progress-bar-green {
+  background-color: green;
+}
+
+.goal-number, .goal-label {
+  display: block;
+}
+
+.goal-number {
+  font-weight: bold;
+}
