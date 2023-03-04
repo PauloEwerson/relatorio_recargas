@@ -65,7 +65,7 @@ Pronto, agora você pode acessar a aplicação no endereço http://localhost:300
 
 ## Variáveis de Ambiente
 
-Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
+Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env.
 
 `MYSQL_HOST`
 
